@@ -144,5 +144,5 @@ tilesetImage.onload = function() {
 // tilesetImage.src = "tile_set.png";
 // change link to 'load' different palletes
 // TODO: Case statement to filter between pallets
-tilesetImage.src = "https://i.imgur.com/jpwFUFm.png";
+tilesetImage.src = "https://i.imgur.com/rvHNsC2.png";
 
