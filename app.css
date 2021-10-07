@@ -73,23 +73,7 @@ canvas {
    list-style-type:none;
    margin:0;
    padding:0;
-   button {
-      appearance:none;
-      font-family:inherit;
-      outline:0;
-      background:transparent;
-      border:0;
-      padding: 8px 0;
-      display:block;
-      width: 100%;
-      text-align:left;
-      cursor:pointer;
-   
-      &.active {
-         font-weight:bold;
-         color: #0884f1;
-      }
-   }
+   padding-left: 12px;
 }
 
 .button-as-link {
@@ -118,4 +102,22 @@ label {
    margin-bottom: 0.5em;
    font-weight: bold;
    display: block;  
+}
+
+button.layer {
+   appearance:none;
+   font-family:inherit;
+   outline:0;
+   background:transparent;
+   border:0;
+   padding: 8px 0;
+   display:block;
+   width: 100%;
+   text-align:left;
+   cursor:pointer;
+}
+
+button.layer.active {
+   font-weight:bold;
+   color: #0884f1;
 }
